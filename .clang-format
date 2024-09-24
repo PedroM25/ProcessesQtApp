@@ -1,0 +1,134 @@
+# formatting aligned to TV coding standards - contact Coding Standards CoP if something is wrong
+
+# see https://clang.llvm.org/docs/ClangFormatStyleOptions.html for details
+# parameters are (except first block) in order of documentation
+
+Language: Cpp
+Standard: c++17
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+AccessModifierOffset: -4
+ColumnLimit: 115
+
+AlignAfterOpenBracket: AlwaysBreak
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignConsecutiveMacros : false
+AlignEscapedNewlines: Left
+AlignOperands: DontAlign
+AlignTrailingComments: false
+
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: Empty
+AllowShortLoopsOnASingleLine: false
+
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+AlwaysBreakAfterReturnType: None
+
+BinPackArguments: false
+BinPackParameters: false
+
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeComma
+BreakInheritanceList: BeforeComma
+BreakStringLiterals: false
+
+BraceWrapping:
+  AfterCaseLabel:  true
+  AfterClass:      true
+  AfterControlStatement: Always
+  AfterEnum:       true
+  AfterFunction:   true
+  AfterNamespace:  true
+  AfterObjCDeclaration: false
+  AfterStruct:     true
+  AfterUnion:      true
+  AfterExternBlock: true
+  BeforeCatch:     true
+  BeforeElse:      true
+  BeforeLambdaBody: true
+  BeforeWhile:     true
+  IndentBraces:    false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+
+CompactNamespaces: false
+
+Cpp11BracedListStyle: true
+
+DerivePointerAlignment: false
+
+DisableFormat: false
+
+FixNamespaceComments: true
+
+IncludeBlocks: Preserve
+
+IndentCaseBlocks: false
+IndentCaseLabels: true
+IndentPPDirectives: None
+IndentWrappedFunctionNames: true
+
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+MaxEmptyLinesToKeep: 1
+
+NamespaceIndentation: None
+
+PackConstructorInitializers: Never
+
+PenaltyReturnTypeOnItsOwnLine: 500
+PenaltyBreakAssignment: 1
+PenaltyExcessCharacter: 1
+
+PointerAlignment: Left
+
+QualifierAlignment: Left
+
+ReflowComments: true
+
+SortIncludes: false
+SortUsingDeclarations: false
+
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceBeforeSquareBrackets: false
+SpaceInEmptyBlock: false
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInConditionalStatement: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+WhitespaceSensitiveMacros: [
+  'EM_ASM',
+  'EM_ASM_DOUBLE',
+  'EM_ASM_INT',
+  'EM_ASM_PTR',
+  'EM_JS',
+  'MAIN_THREAD_ASYNC_EM_ASM',
+  'MAIN_THREAD_EM_ASM',
+  'MAIN_THREAD_EM_ASM_DOUBLE',
+  'MAIN_THREAD_EM_ASM_INT',
+  'MAIN_THREAD_EM_ASM_PTR'
+]
