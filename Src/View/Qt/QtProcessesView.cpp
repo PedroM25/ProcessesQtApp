@@ -20,7 +20,7 @@ int QtProcessesView::start(int argc, char* argv[])
 	// 2. Create the main window
 	auto appWindow = new QtCustomWindow();
 	appWindow->setCentralWidget(centralWidget); // 3. set main window's central widget
-	appWindow->setWindowTitle("My IoT app");
+	appWindow->setWindowTitle("My Qt app");
 	appWindow->resize(550, 600);
 	appWindow->show();
 
