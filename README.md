@@ -1,4 +1,4 @@
-# Processes-Qt-App
+# Processes Qt App
 
 ### Functional features of this app:
 - See the PID, User and command of all running processes in a system
@@ -29,4 +29,5 @@ sudo apt install -y libgrpc++-dev protobuf-compiler-grpc libprotobuf-dev protobu
 
 ## Live process kill
 
-[output2.webm](https://github.com/user-attachments/assets/d3056bdf-c66f-4d70-858d-bc04748eae1d)
+[kill_live.webm](https://github.com/user-attachments/assets/da2939a9-7896-4cb5-a114-870dc0a9e903)
+
