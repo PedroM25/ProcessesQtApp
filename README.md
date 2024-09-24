@@ -14,9 +14,10 @@ Design features of this app:
     - Only new processes are effectively "painted" onto the UI.
 - Filter functionality is tightly integrated with the processes thread.
 
-## Curiosities
+## Other info
 
 - Process information for Unix-based implementation is obtained by parsing the /proc folder
+- Unit tests using gtest and gmock
 
 ## Prerequisites
 
